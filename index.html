@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <!-- the development demo page -->
+  <div id="demo"></div>
+
+  <script type="module">
+    import { createApp } from 'vue';
+    import { Demo } from './src/main.js'
+
+    createApp(Demo).mount('#demo');
+  </script>
+</body>
+
+</html>

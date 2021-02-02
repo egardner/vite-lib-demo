@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="demo"></div>
+
+  <!-- Import Vue -->
+  <script src="https://unpkg.com/vue@3.0.5/dist/vue.global.prod.js"></script>
+  <!-- Import SD Components -->
+  <script src="./sd-components.umd.js"></script>
+  <!-- Initialize Demo -->
+  <script>
+    Vue.createApp( SDComponents.Demo ).mount( '#demo' );
+  </script>
+</body>
+
+</html>

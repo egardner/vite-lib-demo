@@ -1,0 +1,21 @@
+{
+  "name": "@example/sd-components",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "debug": "node --inspect-brk ../../vite/bin/vite",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.2",
+    "@vue/compiler-sfc": "^3.0.5",
+    "less": "^4.1.0",
+    "vite": "^2.0.0-beta.50",
+    "wikimedia-ui-base": "^0.18.1"
+  }
+}
